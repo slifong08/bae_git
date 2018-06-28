@@ -34,7 +34,7 @@ maf_dict = {(i.split(".")[0]): i for i in maf_list_short}
 
 # make a list of villar species. Pull out any alignments where hg19 matches any of these species
 #hq_species =['Mmul', 'Cjac', 'Mmus', 'Rnor', 'Ocun', 'Btau', 'Sscr', 'Cfam', 'Fcat'] #rhesus, marmoset, mouse, rat, rabbit, cow
-hq_species = ['hg19', 'rheMac2', 'calJac1', 'mm9', 'rn4', 'oryCun2', 'bosTau4', 'canFam2', 'felCat3', 'susScr3']
+hq_species = ['hg38', 'rheMac3', 'calJac3', 'mm10', 'rn6', 'oryCun2', 'bosTau8', 'canFam3', 'felCat8', 'susScr3']
 
 
 for chr_num, MAF_FILE in maf_dict.items():
